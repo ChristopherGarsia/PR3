@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tabList {
+  padding-left: 0;
+  display: flex;
+}
+
+.tab {
+  background-color: rgb(63, 63, 63);
+  width: 100%;
+}
+
+.tab .label {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size:17px;
+  margin:0%;
+  cursor: pointer;
+}
+
+.tab .label:hover {
+  background-color: #555;
+}
+
+.tab .labelActive {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size:17px;
+  margin:0%;
+  background-color: #555;
+}
+
+.button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+input[type=submit] {
+  background-color: rgb(63, 63, 63);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+video {
+  width: 300px;
+  height: auto;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.media {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table, th, td {
+  padding: 2%;
+  color: white;
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 20px;
+}
+
+h2 {
+  color: white;
+  padding-left: 2%;
+}
